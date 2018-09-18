@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Router, Route, Switch } from "react-router-dom";
 import { history } from "../_helpers/history";
 
+import "../assets/css/button.css";
 import "../assets/css/pe-icon-7-stroke.css?ver=4.8.6";
 import "../assets/css/styles.css?ver=4.8";
 import "../assets/css/nivo-lightbox.min.css?ver=1.6.12";
@@ -18,7 +19,6 @@ import "../assets/css/animations.css?ver=4.8.6";
 import "../assets/css/mega-menu.css?ver=4.8.6";
 import "../assets/css/mega-menu-responsive.css?ver=4.8.6";
 import "../assets/css/font-awesome.min.css?ver=5.2";
-import "../assets/css/pe-icon-7-stroke.css?ver=4.8.6";
 import "../assets/css/offcanvasmenu.css?ver=4.8.6";
 import "../assets/css/nanoscroller.css?ver=4.8.6";
 import "../assets/css/hover.css?ver=4.8.6";

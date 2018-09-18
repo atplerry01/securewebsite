@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import ToggleButton from "react-toggle-button";
 
 class Header extends Component {
   render() {
@@ -307,7 +308,8 @@ class Header extends Component {
                                     <i
                                       className="fa fa-angle-right"
                                       aria-hidden="true"
-                                    />Payment & Collections
+                                    />
+                                    Payment & Collections
                                   </a>
                                 </li>
                                 <li
@@ -391,6 +393,13 @@ class Header extends Component {
                         >
                           <a href="/contact-us">Contact Us</a>
                         </li>
+                        <li>
+                          <label class="switch">
+                            <input type="checkbox" />
+                            <span class="slider round" />
+                          </label>
+                        </li>
+                        <li style={{ top: 8, paddingLeft: 5 }}>French</li>
                       </ul>
                     </div>
                   </div>
